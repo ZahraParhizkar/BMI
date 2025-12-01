@@ -185,7 +185,7 @@ def format_report(name, inputs, results, recommendations):
     return "\n".join(body)
 
 # ---------- App UI ----------
-st.title("ارزیابی BMI و توصیه‌های لازم")
+st.title("ارزیابی دیجیتال سلامت")
 st.markdown(
     """
     این برنامه با استفاده از پارامترهایی که وارد می‌کنید، BMI و معیارهای مرکزی (دور کمر، نسبت‌ها) را محاسبه می‌کند و بر اساس دستورالعمل‌ها و آستانه‌های ذکر شده در آپتودیت توصیه‌هایی ارائه می‌دهد.
@@ -327,4 +327,5 @@ if submit:
 
 st.markdown("---")
 st.caption("منبع: UpToDate")
+
 
