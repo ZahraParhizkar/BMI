@@ -14,7 +14,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.set_page_config(page_title="ارزیابی BMI و توصیه‌های لازم", layout="centered")
+st.set_page_config(page_title="ارزیابی دیجیتال سلامت", layout="centered")
 
 # ---------- helper functions ----------
 def calc_bmi(weight_kg, height_cm):
@@ -327,3 +327,4 @@ if submit:
 
 st.markdown("---")
 st.caption("منبع: UpToDate")
+
